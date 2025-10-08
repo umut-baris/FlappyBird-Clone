@@ -1,1 +1,36 @@
-# FlappyBird-Clone
+# Flappy Bird Clone 🐦
+
+Unity ile geliştirilmiş basit ve eğlenceli Flappy Bird klonu.
+
+![Game Screenshot](Screenshots/game_screenshot.png)
+
+## 🎮 Oyun Hakkında
+
+Klasik Flappy Bird mekaniğine sahip 2D bir oyun. Kuşu boruların arasından geçirerek skor topla!
+
+## 🕹️ Nasıl Oynanır?
+- **Space** tuşuna bas veya **sol tık** yaparak kuşu zıplat
+- Boruların arasından geçerek **skor topla**
+- Borulara **çarpma** - Game Over!
+
+## ✨ Özellikler
+- Zıplama mekaniği
+- Sonsuz boru spawn sistemi  
+- Skor sistemi
+- Çarpışma tespiti
+- Optimize boru temizleme
+
+## 🛠️ Teknolojiler
+- **Unity 2022.3.LTS**
+- **C#**
+- **Git** & **GitHub**
+
+## 📥 Kurulum
+
+1. Projeyi klonla:
+```bash
+git clone https://github.com/umut-baris/FlappyBird-Clone.git
+```
+2. Unity 2022.3.LTS veya üzeri bir sürümle aç
+3. `Assets/Scenes/MainScene.unity` dosyasını aç
+4. Play butonuna basın ve oynamaya başla!
