@@ -1,28 +1,43 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PipeSpawner : MonoBehaviour
 {
     public GameObject pipePrefab;
     public float spawnRate = 2f;
     public float heightOffset = 2f;
-    
+
     private float timer = 0f;
+    
+    public int counter;
 
     void Start()
     {
         SpawnPipe();
+        counter = 0;
     }
 
     void Update()
     {
+        
         if (timer < spawnRate)
         {
             timer += Time.deltaTime;
         }
         else
         {
-            SpawnPipe();
-            timer = 0;
+            if (counter != 10)
+            {
+                SpawnPipe();
+                counter++;
+                timer = 0;
+            }
+            else
+            {
+                timer = 0;
+                counter++;
+            }
+
         }
     }
 
