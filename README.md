@@ -2,7 +2,7 @@
 
 Unity ile geliştirilmiş basit ve eğlenceli Flappy Bird klonu.
 
-<img width="2157" height="1215" alt="image" src="https://github.com/user-attachments/assets/8ddc65ca-4c4b-41a2-8ffe-b38153688d14" />
+<img width="2158" height="1215" alt="image" src="https://github.com/user-attachments/assets/7f3dcb03-2883-4f99-84f5-ee36bec1d7a4" />
 
 
 ## 🎮 Oyun Hakkında
